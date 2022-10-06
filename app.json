@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "DNC",
+    "slug": "DNC",
+    "version": "1.0.0",
+    "orientation": "default",
+    "splash": {
+      "image": "./assets/splash1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.smppandi.DNC"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo@2.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.smppandi.DNC"
+    },
+    "web": {
+      "favicon": "./assets/logo@2.png"
+    }
+  }
+}
